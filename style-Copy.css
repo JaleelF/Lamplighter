@@ -1,0 +1,44 @@
+			.doc_body {
+				width: 30%;
+				/* line width, line type, color */
+				border: 15px solid red;
+				border-radius: 10%;
+				margin-bottom: 30px;
+				text-align: center;
+				text-shadow: white;
+
+
+
+				
+			}
+			
+			.inner_picture {
+				border: 2px solid green;
+				width: 85%;
+			}
+			
+			
+			.ball {
+				background-color: purple;
+				border-radius: 5%;
+
+
+			}
+			
+			
+			a:visited {
+				color: orange;
+			}
+			/*mouse/cursor hoverong over*/
+			a:hover {
+				animation: rainbow 5s linear;
+				text-decoration: none;
+			}
+			/*About to receive input*/
+			a:focus {
+				color: orange;
+			}
+			/*receiving input*/
+			a:active {
+				color: orange;
+			}
