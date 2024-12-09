@@ -1,0 +1,123 @@
+		    body {
+				  	background-color: purple;
+
+			}
+
+
+			h1 {
+				
+				font-size: 48px;
+				text-decoration: underline;
+				font-family: monospace;
+				font-weight: bold;
+				font-variant: small-caps;
+				background-color: yellow;
+				text-align: center;
+			}
+			
+			
+			h2 {
+				color:goldenrod;
+				font-size: 36px;
+				text-align: center;
+				text-decoration: underline;
+				font-weight: bold;
+				font_variant: small-caps;
+				text-shadow: 2px 0px 0px black;
+			}
+			
+			li {
+				color:green;
+				font-weight: 800;
+				
+			}
+			
+			p {
+				font-size: 36px;
+				color: goldenrod;
+				font-variant: small-caps;
+			}
+			
+		
+			
+			.saddlebrown_text {
+				color: #FF0000;
+				color: rgba(255, 125, 0, 100%);
+				color: hsla(30,100%, 50%, 100%);
+			}
+			
+			.small_cap_letters {
+				font-variant: small-caps;
+			}
+			
+			.large_text {
+				font-size: 48px;
+			}
+			
+			.doc_header {
+				width: 100%;
+				/* line width, line type, color */
+				border: 5px solid blue;
+			}
+			
+
+			.heavy_border {
+				border: 5px dashed red;
+				padding: 15px;
+				margin: 15px;
+			}
+			
+			.small_img {
+				max-width: 100px;
+				transition: max-width 1s ease-in-out;
+			}
+			
+			.small_img:hover {
+				max-width: 200px;
+			}
+						
+			
+			.inner_picture {
+				border: 5px solid purple;
+			}
+			
+			.inner_video {
+				border: 5px solid purple;
+				width: 300px;
+				
+			}
+			
+			.inner_audio {
+				width: 300px;
+				
+			}
+
+		/*	.float_L {
+				float: right;
+				margin-left: 5px;
+			}
+		*/
+		
+			.flex_container {
+				display: flex;
+				background-color: #CCCCCC;
+				justify-content: center;
+				direction: row;
+			}
+			
+			.flex_container  div {
+				background-color: #DDDDDD;
+				background: linear-gradient(white, silver);
+				border: 1px solid black;
+				padding: 10px;
+				margin: 10px;
+				border-radius: 10px;
+			}
+			
+			.rounded {
+				border: 5px dashed green;
+				margin: 5px;
+				border-radius: 15%;
+				
+			}
+			
